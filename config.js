@@ -14,8 +14,8 @@ global.DATABASE_URL = process.env.DATABASE_URL || ""
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
 global.github=process.env.GITHUB|| "https://github.com/Astropeda/Asta-Md";
-global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VaPGt3QEwEjpBXT4Rv0z";
-global.website=process.env.GURL || "https://whatsapp.com/channel/0029VaPGt3QEwEjpBXT4Rv0z" ; 
+global.gurl  =process.env.GURL  || "";
+global.website=process.env.GURL || "" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.imgur.com/JMsAFRD.jpeg" ;
 global.caption = process.env.CAPTION || global.caption || "αѕтα-м∂ 2024" 
 global.BUTTONS = process.env.BUTTONS || process.env.MENU_BTN || "1";
